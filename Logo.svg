@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="150" viewBox="0 0 450 150">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 120px;
+        fill: #9b8251;
+        font-family: Manrope;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #b83838;
+      }
+    </style>
+  </defs>
+  <text id="Recipie" class="cls-1" x="3" y="105">Reci<tspan class="cls-2">pie</tspan></text>
+</svg>

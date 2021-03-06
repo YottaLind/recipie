@@ -1,0 +1,60 @@
+:root {
+    --offwhite: #fdeedd;
+    --piebrown: #9b8251;
+    --piered: #b83838;
+}
+
+#content {
+    background-color: green;
+    width: 75%;
+    margin: auto;
+    min-width: 1000px;
+}
+
+#header {
+    background-color: var(--offwhite);
+}
+
+nav {
+    background-color: var(--piebrown);
+    /* Safari */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#navlist>li {
+    list-style-type: none;
+    /* float: left; */
+}
+
+#navlist>li>a {
+    display: block;
+}
+
+#navlist>li>a:hover {
+    background-color: var(--piered);
+}
+
+#mid {
+    background-color: var(--offwhite);
+}
+
+.midContent {
+    width: 40%;
+    padding: 10px;
+    float: left;
+}
+
+#ingredients {
+    /* float: left; */
+}
+
+#instructions {
+    /* float: right; */
+    position: unset;
+}
+
+footer {
+    background-color: var(--piebrown);
+}
