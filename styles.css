@@ -15,11 +15,18 @@
     --background_color: #5a5a5a;
 }
 
+* {
+    color: var(--text_color);
+    margin: 0;
+    padding: 0;
+    font-family: Manrope_body;
+}
+
 body {
     background-color: var(--background_color);
-    font-family: Manrope_body;
-    margin: 0;
-    color: var(--text_color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .cls-1 {
@@ -37,14 +44,14 @@ nav {
     background-color: var(--main_color);
 }
 
-ul {
+nav>ul,
+footer>ul {
     list-style-type: none;
     overflow: hidden;
-    width: 1200px;
-    margin: auto;
 }
 
-ul>li {
+nav>ul>li,
+footer>ul>li {
     width: 150px;
     float: left;
 }
@@ -64,12 +71,17 @@ a:hover {
 
 main {
     display: flex;
-    width: 1200px;
-    margin: auto;
+    flex-grow: 1;
+    /* background-color: blueviolet; */
 }
 
 section {
-    padding: 10px;
+    /* background-color: blue; */
+    padding: 20px;
+}
+
+section>ul {
+    list-style-type: none;
 }
 
 footer {
