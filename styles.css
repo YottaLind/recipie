@@ -20,6 +20,7 @@
     margin: 0;
     padding: 0;
     font-family: Manrope_body;
+    letter-spacing: 1px;
 }
 
 body {
@@ -54,6 +55,7 @@ nav>ul>li,
 footer>ul>li {
     width: 150px;
     float: left;
+    display: block;
 }
 
 a {
@@ -70,18 +72,37 @@ a:hover {
 }
 
 main {
-    display: flex;
     flex-grow: 1;
-    /* background-color: blueviolet; */
+    margin: auto;
+}
+
+article {
+    display: flex;
 }
 
 section {
-    /* background-color: blue; */
     padding: 20px;
+    width: 400px;
 }
 
 section>ul {
     list-style-type: none;
+}
+
+section li {
+    padding: 3px;
+}
+
+section input {
+    margin-right: 5px;
+}
+
+section input:checked {
+    text-decoration: line-through;
+}
+
+section input[type=checkbox]:checked+label {
+    text-decoration: line-through;
 }
 
 footer {
