@@ -1,3 +1,3 @@
 $(function() {
-    $("main").load("recipes/desserts/kladdmuffins.html");
+    $("main").load("recipes/desserts/kanelbullar.html");
 });
