@@ -39,6 +39,7 @@ body {
 
 .cls-2 {
     fill: var(--sec_color);
+    font-family: Manrope_header;
 }
 
 nav {
