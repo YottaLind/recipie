@@ -14,8 +14,8 @@ for i in range(0,3):
             output_file.write('<h1>' + line.strip() + '</h1>' + '\n')
             output_file.write('<article>' + '\n' + '<section id="ingredients">' + '\n' + '<h1>Ingredients</h1>' + '\n')
             line = input_file.readline()
-            line = input_file.readline()
-            output_file.write('<p>' + line.strip() + '</p>' + '\n')
+            # line = input_file.readline()
+            # output_file.write('<p>' + line.strip() + '</p>' + '\n')
             # ingredients ul and li
             output_file.write('<ul>\n')
             while(True):
@@ -27,8 +27,10 @@ for i in range(0,3):
                 if line == 'Instuctions':
                     break
                 output_file.write('<li>')
-                if line[0] == '#':
+                if line.startswith("#"):
                     output_file.write('<h1>'+ line[1:] +'</h1>')
+                elif line.startswith("amount:"):
+                    output_file.write('<p>' + line[7:] + '</p>' + '\n')
                 else:
                     output_file.write('<label><input type="checkbox">' + line + '</label>')
                 output_file.write('</li>\n')

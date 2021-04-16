@@ -1,6 +1,6 @@
 Bläbärsmuffins
 Ingredients
-12 st stora
+amount:12 st stora
 125 g smör eller margarin
 2 dl strösocker <br>eller  2 dl farinsocker
 3 st ägg

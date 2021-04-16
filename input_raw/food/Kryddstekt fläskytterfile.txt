@@ -1,6 +1,6 @@
 Kryddstekt Fläskytterfile
 Ingredients
-4 personer
+amount: 4 personer
 600g fläskytterfilé
 1 lagerblad
 1 tsk svartpeppar
