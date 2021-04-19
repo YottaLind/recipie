@@ -1,20 +1,22 @@
 Name of recipe
-amount:  the amount the recipe produces, optional, amount: will be removed
+amount: the amount the recipe produces, optional, amount: will be removed
 Ingredients
+#subcategory 1
 1 Ingredient in subcategory 1
 2 Ingredient in subcategory 1
 3 Ingredient in subcategory 1
+#subcategory 2
 1 Ingredient in subcategory 2
 2 Ingredient in subcategory 2
 3 Ingredient in subcategory 2
 4 Ingredient in subcategory 2
 Instructions
 temp: oven temp, optional, temp: will be removed
+#subInstructions 1
 1 Instruction 
 2 Instruction
 3 Instruction
 4 Instruction
+#subInstructions 2
 1 Instruction
 2 Instruction
-
-

@@ -9,7 +9,7 @@ amount: 16st
 1 krm salt
 100 g smält matfett
 Instructions
-Sätt ugnen på 225°C.
+temp: Sätt ugnen på 225°C.
 Rör ihop ägg och socker - vispa ej.
 Blanda de torra ingredienserna och rör sedan ner det i äggblandningen.
 Rör ner det smälta matfettet. Klicka ner smeten i små muffinsformar.

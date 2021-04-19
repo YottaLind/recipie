@@ -5,7 +5,7 @@ amount:Ger 8 dl
 1 liter	vatten
 2,5 dl	strösocker
 0,75 dl	citron, pressad
-Instuctions
+Instructions
 Skär rabarbern i bitar och lägg den i en gryta. Häll över vattnet och låt koka under lock ca 15 min.
 Sila rabarbersaften och koka upp den. Tillsätt sockret och låt koka tills det smält. Rör om då och då. Tillsätt citronsaften.
 Häll saften i väl rengjorda, varma flaskor. Låt den kallna och förvara i kylen.

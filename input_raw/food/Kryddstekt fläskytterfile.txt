@@ -6,7 +6,7 @@ amount: 4 personer
 1 tsk svartpeppar
 1/2 tsk spiskummin
 1/2 tsk timjan
-Instuctions
+Instructions
 temp: 150°C
 Sätt ugnen på 150°. Putsa filén och dela den i två bitar.
 Mortla alla kryddor så att du får en slät kyddblandning. Fördela detta över köttet, se till att kryddblandningen fördelas jämnt över alla sidor!
